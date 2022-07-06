@@ -1,0 +1,31 @@
+.body{
+
+}
+.upper-row{
+    height: 20vh;
+    width: 90vw;
+    margin: 2vh 2.5vh;
+    display: grid;
+    grid-template: 100% / repeat(2,1fr);
+    column-gap: 2vw;
+}
+.upper-row .child{
+    background-color: yellow;
+}
+.middle-row{
+    height: 30vh;
+    width: 90vw;
+    margin: 2vh 2.5vh;
+    background-color: rgb(231, 74, 7);
+}
+.lower-row{
+    height: 30vh;
+    width: 90vw;
+    margin:2vh 2.5vh;
+    display: grid;
+    grid-template: 100%/repeat(3,1fr);
+    column-gap: 2vw;
+}
+.lower-row .child{
+    background-color: blueviolet;
+}

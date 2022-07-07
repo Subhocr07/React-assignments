@@ -29,3 +29,22 @@
 .lower-row .child{
     background-color: blueviolet;
 }
+@media  screen and (max-width:768px) {
+    .upper-row{
+        column-gap: 2.5vmax;
+    }
+    .lower-row{
+        display: grid;
+        grid-template: repeat(2,1fr)/100%;
+        row-gap: 2.5vmax;
+
+    }
+}
+
+@media  screen and (max-width:320px) {
+    .upper-row{
+        display: grid;
+        grid-template: repeat(2,1fr)/100%;
+        row-gap: 2.5vmax;
+    }
+}

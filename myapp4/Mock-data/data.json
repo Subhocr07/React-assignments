@@ -5,21 +5,21 @@
     "location":"Bengaluru",
     "likes":64,
     "description": "Kick start your career",
-    "PostImage": "relative path from local",
+    "PostImage": "10x-img.png",
     "date": "12/02/2022"
     },
     {"name":"Neeraj",
     "location":"Pune",
     "likes":30,
     "description": "Sample Description",
-    "PostImage": "relative path from local",
+    "PostImage": "san-frans.jpeg",
     "date": "15/05/2022"
     },
     {"name":"Rahul",
     "location":"Hyderabad",
     "likes":30,
     "description": "Sample Description for Post",
-    "PostImage": "relative path from local",
+    "PostImage": "swiss-plane-img.jpg",
     "date": "10/06/2022"
     }
     ]
